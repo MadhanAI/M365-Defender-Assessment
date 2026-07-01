@@ -1,0 +1,33 @@
+[project]
+name = "m365-defender-assessment"
+version = "0.1.0"
+description = "Microsoft 365 Defender Assessment Tool"
+readme = "README.md"
+requires-python = ">=3.12"
+
+authors = [
+    { name = "Madhan" }
+]
+
+dependencies = [
+    "typer>=0.16.0",
+    "rich>=14.0.0",
+    "loguru>=0.7.3",
+    "python-dotenv>=1.1.0",
+    "pydantic>=2.11.0",
+    "pydantic-settings>=2.10.0",
+    "requests>=2.32.4",
+    "msal>=1.32.3",
+    "jinja2>=3.1.6",
+    "pandas>=2.3.1",
+    "openpyxl>=3.1.5"
+]
+
+[project.scripts]
+m365assess = "src.cli.app:app"
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100

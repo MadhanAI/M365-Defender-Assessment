@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Reports
+output/
+
+# Environment
+.env
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Windows
+Thumbs.db
+Desktop.ini
