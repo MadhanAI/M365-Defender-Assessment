@@ -1,1 +1,0 @@
-# M365-Defender-Assessment
